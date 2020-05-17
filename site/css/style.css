@@ -1,0 +1,82 @@
+body{
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	margin: 0px;
+	padding: 0px;
+	background-color: #2a363b;
+}
+#header-nav{
+	background-color: #e1f5ca;
+	font-family: 'Frank Ruhl Libre', serif;
+}
+#logo-img{
+	background: url('../images/logoblack.png') no-repeat;
+	width: 150px;
+	height: 150px;
+}
+.abc{
+	float: left;
+}
+.navbar-brand{
+	padding: 45px 0px 0px 20px;
+}
+.navbar-brand h1{
+	font-family: 'Frank Ruhl Libre', serif;
+	color: #2a363b;
+	font-size: 2em;
+	text-shadow: 1px 1px 1px #222;
+	margin-top: 17px;
+	margin-bottom:0px;
+	line-height:.75; 
+}
+.navbar-brand a:hover, .navbar-brand a:focus{
+	text-decoration: none;
+}
+#nav-list{
+	margin-top: 30px;
+}
+#nav-list a{
+	color :#2a363b;
+	text-align: center;
+	font-size: 1.2em;
+}
+
+#nav-list a:hover{
+	text-decoration: none;
+	color: :#e7e7e7;
+}
+.container button.navbar-toggle{
+	border:1px solid #2a363b;
+	border-radius: 1px;	
+}
+.container h2 {
+	font-size: 2.5em;
+	text-align: center;
+	margin-top: 20px;
+	color:#e1f5ca;
+}
+.container .main-content{
+	background-color: #e1f5ca;
+	color:#2a363b;
+	margin: 50px;
+}
+.container .main-content h3{
+	font-size: 2em;
+	text-align: center;
+	padding-top: 20px;
+}
+.container .content-description{
+	font-size: 1.5em;
+	padding-left: 2px;
+	padding-right: 2px;
+}
+@media(max-width: 576px){
+	.navbar-brand{
+		padding: 0px;
+	}
+	.navbar-brand h1{
+		margin:10px;
+	}
+	.container .main-content {
+		margin: 10px 5px 10px 5px;
+	}
+}

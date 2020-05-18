@@ -50,14 +50,14 @@ body{
 }
 .container h2 {
 	font-size: 2.5em;
-	text-align: center;
+	/*text-align: center;*/
 	margin-top: 20px;
 	color:#e1f5ca;
 }
 .container .main-content{
 	background-color: #e1f5ca;
 	color:#2a363b;
-	margin: 50px;
+	margin: 50px auto 50px;
 }
 .container .main-content h3{
 	font-size: 2em;
